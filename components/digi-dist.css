@@ -1,0 +1,103 @@
+.section-numeral-section-numeral {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.section-numeral-divide {
+  width: 100px;
+  height: 1px;
+  display: flex;
+  margin-top: 4px;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--dl-color-gray-black);
+}
+.section-numeral-root-class-name {
+  align-self: flex-start;
+}
+@media(max-width: 479px) {
+  .section-numeral-divide {
+    width: 20px;
+  }
+  .section-numeral-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.digi-dist-speakers {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  padding-top: 120px;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: 120px;
+}
+.digi-dist-header {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  max-width: 640px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.digi-dist-heading {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 1035px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.digi-dist-title {
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100px;
+}
+.digi-dist-image {
+  width: 408px;
+  height: 440px;
+  position: absolute;
+  align-self: flex-end;
+  object-fit: cover;
+}
+.digi-dist-caption {
+  width: 557px;
+  height: 254px;
+  font-size: 18px;
+  line-height: 27px;
+}
+@media(max-width: 767px) {
+  .digi-dist-speakers {
+    gap: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .digi-dist-heading {
+    gap: var(--dl-space-space-unit);
+  }
+  .digi-dist-title {
+    font-size: 30px;
+    line-height: 33px;
+  }
+  .digi-dist-caption {
+    width: 90%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .digi-dist-text {
+    width: 90%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
