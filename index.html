@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>OnConf template</title>
-    <meta property="og:title" content="OnConf template" />
+    <title>ETSSound</title>
+    <meta property="og:title" content="ETSSound" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -33,6 +33,12 @@
       href="https://unpkg.com/animate.css@4.1.1/animate.css"
     />
     <link
+      rel="shortcut icon"
+      href="public/copy of background.svg"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
       data-tag="font"
@@ -55,7 +61,9 @@
       <div class="home-container">
         <section class="home-hero">
           <header data-thq="thq-navbar" class="home-navbar">
-            <h2 class="home-text">/ETSsound/</h2>
+            <a href="index.html" class="home-navlink">
+              <h2 class="home-text">/ETSsound/</h2>
+            </a>
             <div
               data-thq="thq-navbar-nav"
               data-role="Nav"
@@ -66,8 +74,8 @@
                 data-role="Nav"
                 class="home-nav"
               >
-                <span class="home-link navLink">About</span>
-                <span class="home-link1 navLink">Projects</span>
+                <a href="index.html" class="home-link navLink">About</a>
+                <a href="projects.html" class="home-link1 navLink">Projects</a>
               </nav>
             </div>
             <div data-thq="thq-burger-menu" class="home-burger-menu">
@@ -137,166 +145,18 @@
               </div>
               <img
                 alt="image"
-                src="public/quote-background.svg"
+                src="/quote-background.svg"
                 class="home-background"
               />
             </div>
           </header>
         </section>
-        <section class="home-notes">
-          <div class="home-first">
-            <div data-aos="fade-up-right" class="home-content">
-              <h2 class="home-header">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod.
-              </h2>
-              <div class="home-list">
-                <div class="home-note">
-                  <div class="home-point"></div>
-                  <p class="home-text07">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam.
-                  </p>
-                </div>
-                <div class="home-note1">
-                  <div class="home-point01"></div>
-                  <p class="home-text08">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <img
-              alt="image"
-              src="public/notes-1-1400w.png"
-              class="home-image image-notes"
-            />
-          </div>
-          <div class="home-second">
-            <div data-aos="fade-up-left" class="home-content01">
-              <h2 class="home-header01">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </h2>
-              <button class="button button-style-2 home-register1">
-                <span>Register now</span>
-                <svg viewBox="0 0 1024 1024" class="home-icon10">
-                  <path
-                    d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"
-                  ></path>
-                </svg>
-              </button>
-            </div>
-            <img
-              alt="image"
-              src="public/notes-2-1400w.png"
-              class="image-notes"
-            />
-          </div>
-        </section>
-        <section class="home-quote">
-          <div class="home-content02">
-            <h2 class="home-quoted">
-              “I love lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliquaation ullamco 100%.”
-            </h2>
-            <div class="home-author">
-              <img
-                alt="image"
-                src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                class="home-icon12"
-              />
-              <div class="home-details">
-                <span class="home-name">Andy Smith</span>
-                <span class="home-from">(Founder OnConf)</span>
-              </div>
-            </div>
-          </div>
-          <img
-            alt="image"
-            src="public/quote-background.svg"
-            class="home-background1"
-          />
-          <img
-            alt="image"
-            src="public/quote-background.svg"
-            class="home-background2"
-          />
-        </section>
-        <section class="digi-dist-speakers">
-          <div class="digi-dist-header">
-            <div
-              class="section-numeral-section-numeral section-numeral-root-class-name"
-            >
-              <div class="section-numeral-divide"></div>
-              <p class="section-numeral-text"><span>01</span></p>
-            </div>
-            <div data-aos="fade-right" class="digi-dist-heading">
-              <h2 class="digi-dist-title"><span>DigiDist</span></h2>
-              <img
-                alt="image"
-                src="public/New Folder/screenshot%202024-02-02%20233838-500w.png"
-                class="digi-dist-image"
-              />
-              <p class="digi-dist-caption">
-                <span class="digi-dist-text">
-                  My first foray into DSP and plugin creation. Built in iPlug2
-                  (https://github.com/iPlug2) as a proof of concept. Distortion
-                  algorithm mainly courtesy of Martin Finke
-                  (https://www.martin-finke.de/articles/audio-plugins-005-digital-distortion/),
-                  although I had to make some adjustments for usability. The
-                  volume compensation at high drive values, the volume knob, and
-                  the dry/wet mix knob were written by me.
-                </span>
-                <br />
-                <br />
-                <span>
-                  DigiDist is a proof of concept. I built its functionality in
-                  essentially one evening to learn the basics of iPlug2.
-                </span>
-                <br />
-              </p>
-            </div>
-          </div>
-        </section>
-        <section class="home-watch">
-          <div class="home-content03">
-            <h2 class="home-header02">
-              Watch our Watch our OnConf 2022 trailer
-            </h2>
-            <div class="home-video">
-              <video
-                src=""
-                poster="public/quotes-1-1400w.png"
-                class="home-video1"
-              ></video>
-              <img alt="image" src="public/play.svg" class="home-image02" />
-            </div>
-            <button class="button home-register2">
-              <span>Register now</span>
-              <svg viewBox="0 0 1024 1024" class="home-icon13">
-                <path
-                  d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"
-                ></path>
-              </svg>
-            </button>
-          </div>
-          <img
-            alt="image"
-            src="public/trailer-background.svg"
-            class="home-image03"
-          />
-        </section>
         <section class="home-schedule">
-          <div class="home-content04">
-            <div class="home-header03">
+          <div class="home-content">
+            <div class="home-header">
               <div class="home-section-numeral">
                 <div class="home-divide"></div>
-                <p class="home-text11">02</p>
+                <p class="home-text07">02</p>
               </div>
               <div data-aos="fade-right" class="home-heading">
                 <h2 class="home-title">Schedule</h2>
@@ -313,17 +173,17 @@
                   data-role="schedule-select"
                   class="tab-active tab home-tab"
                 >
-                  <span class="home-text12">Friday, Nov 04</span>
+                  <span class="home-text08">Friday, Nov 04</span>
                 </div>
                 <div data-role="schedule-select" class="tab home-tab1">
-                  <span class="home-text13">Saturday, Nov 05</span>
+                  <span class="home-text09">Saturday, Nov 05</span>
                 </div>
                 <div data-role="schedule-select" class="tab home-tab2">
-                  <span class="home-text14">Sunday, Nov 06</span>
+                  <span class="home-text10">Sunday, Nov 06</span>
                 </div>
               </div>
               <div class="home-lists">
-                <section data-role="schedule-content" class="home-list1">
+                <section data-role="schedule-content" class="home-list">
                   <div class="home-element">
                     <div class="home-main01">
                       <span class="home-time">
@@ -331,15 +191,15 @@
                         time (6 Hours)
                       </span>
                       <h3 class="home-title01">Pre-event networking</h3>
-                      <div class="home-author01">
+                      <div class="home-author">
                         <img
                           alt="image"
                           src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon15"
+                          class="home-icon10"
                         />
-                        <div class="home-details01">
-                          <span class="home-name01">Andy Smith</span>
-                          <div class="home-point02"></div>
+                        <div class="home-details">
+                          <span class="home-name">Andy Smith</span>
+                          <div class="home-point"></div>
                           <span class="home-caption01">CEO, Opary</span>
                         </div>
                       </div>
@@ -355,15 +215,15 @@
                         time (30 Minutes)
                       </span>
                       <h3 class="home-title02">How to Lorem Ipsum.</h3>
-                      <div class="home-author02">
+                      <div class="home-author01">
                         <img
                           alt="image"
                           src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon16"
+                          class="home-icon11"
                         />
-                        <div class="home-details02">
-                          <span class="home-name02">Samantha Johnson</span>
-                          <div class="home-point03"></div>
+                        <div class="home-details01">
+                          <span class="home-name01">Samantha Johnson</span>
+                          <div class="home-point01"></div>
                           <span class="home-caption02">CEO, Opary</span>
                         </div>
                       </div>
@@ -382,15 +242,15 @@
                         time (30 Minutes)
                       </span>
                       <h3 class="home-title03">How to Lorem Ipsum.</h3>
-                      <div class="home-author03">
+                      <div class="home-author02">
                         <img
                           alt="image"
                           src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon17"
+                          class="home-icon12"
                         />
-                        <div class="home-details03">
-                          <span class="home-name03">Samantha Johnson</span>
-                          <div class="home-point04"></div>
+                        <div class="home-details02">
+                          <span class="home-name02">Samantha Johnson</span>
+                          <div class="home-point02"></div>
                           <span class="home-caption03">CEO, Opary</span>
                         </div>
                       </div>
@@ -409,15 +269,15 @@
                         time (30 Minutes)
                       </span>
                       <h3 class="home-title04">How to Lorem Ipsum.</h3>
-                      <div class="home-author04">
+                      <div class="home-author03">
                         <img
                           alt="image"
                           src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon18"
+                          class="home-icon13"
                         />
-                        <div class="home-details04">
-                          <span class="home-name04">Samantha Johnson</span>
-                          <div class="home-point05"></div>
+                        <div class="home-details03">
+                          <span class="home-name03">Samantha Johnson</span>
+                          <div class="home-point03"></div>
                           <span class="home-caption04">CEO, Opary</span>
                         </div>
                       </div>
@@ -436,15 +296,15 @@
                         time (30 Minutes)
                       </span>
                       <h3 class="home-title05">How to Lorem Ipsum.</h3>
-                      <div class="home-author05">
+                      <div class="home-author04">
                         <img
                           alt="image"
                           src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon19"
+                          class="home-icon14"
                         />
-                        <div class="home-details05">
-                          <span class="home-name05">Samantha Johnson</span>
-                          <div class="home-point06"></div>
+                        <div class="home-details04">
+                          <span class="home-name04">Samantha Johnson</span>
+                          <div class="home-point04"></div>
                           <span class="home-caption05">CEO, Opary</span>
                         </div>
                       </div>
@@ -463,15 +323,15 @@
                         local time (2 Hours)
                       </span>
                       <h3 class="home-title06">Post-event networking</h3>
-                      <div class="home-author06">
+                      <div class="home-author05">
                         <img
                           alt="image"
                           src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fHBvdHJhaXR8ZW58MHx8fHwxNjcxNDg1OTU2&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon20"
+                          class="home-icon15"
                         />
-                        <div class="home-details06">
-                          <span class="home-name06">Samantha Johnson</span>
-                          <div class="home-point07"></div>
+                        <div class="home-details05">
+                          <span class="home-name05">Samantha Johnson</span>
+                          <div class="home-point05"></div>
                           <span class="home-caption06">CEO, Opary</span>
                         </div>
                       </div>
@@ -484,7 +344,7 @@
                     </button>
                   </div>
                 </section>
-                <section data-role="schedule-content" class="home-list2">
+                <section data-role="schedule-content" class="home-list1">
                   <div class="home-element06">
                     <div class="home-main07">
                       <span class="home-time06">
@@ -492,15 +352,15 @@
                         time (30 Minutes)
                       </span>
                       <h3 class="home-title07">How to Lorem Ipsum.</h3>
-                      <div class="home-author07">
+                      <div class="home-author06">
                         <img
                           alt="image"
                           src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon21"
+                          class="home-icon16"
                         />
-                        <div class="home-details07">
-                          <span class="home-name07">Samantha Johnson</span>
-                          <div class="home-point08"></div>
+                        <div class="home-details06">
+                          <span class="home-name06">Samantha Johnson</span>
+                          <div class="home-point06"></div>
                           <span class="home-caption07">CEO, Opary</span>
                         </div>
                       </div>
@@ -519,15 +379,15 @@
                         time (6 Hours)
                       </span>
                       <h3 class="home-title08">Pre-event networking</h3>
-                      <div class="home-author08">
+                      <div class="home-author07">
                         <img
                           alt="image"
                           src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon22"
+                          class="home-icon17"
                         />
-                        <div class="home-details08">
-                          <span class="home-name08">Andy Smith</span>
-                          <div class="home-point09"></div>
+                        <div class="home-details07">
+                          <span class="home-name07">Andy Smith</span>
+                          <div class="home-point07"></div>
                           <span class="home-caption08">CEO, Opary</span>
                         </div>
                       </div>
@@ -543,15 +403,15 @@
                         time (30 Minutes)
                       </span>
                       <h3 class="home-title09">How to Lorem Ipsum.</h3>
-                      <div class="home-author09">
+                      <div class="home-author08">
                         <img
                           alt="image"
                           src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon23"
+                          class="home-icon18"
                         />
-                        <div class="home-details09">
-                          <span class="home-name09">Samantha Johnson</span>
-                          <div class="home-point10"></div>
+                        <div class="home-details08">
+                          <span class="home-name08">Samantha Johnson</span>
+                          <div class="home-point08"></div>
                           <span class="home-caption09">CEO, Opary</span>
                         </div>
                       </div>
@@ -564,7 +424,7 @@
                     </button>
                   </div>
                 </section>
-                <section data-role="schedule-content" class="home-list3">
+                <section data-role="schedule-content" class="home-list2">
                   <div class="home-element09">
                     <div class="home-main10">
                       <span class="home-time09">
@@ -572,15 +432,15 @@
                         time (6 Hours)
                       </span>
                       <h3 class="home-title10">Pre-event networking</h3>
-                      <div class="home-author10">
+                      <div class="home-author09">
                         <img
                           alt="image"
                           src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon24"
+                          class="home-icon19"
                         />
-                        <div class="home-details10">
-                          <span class="home-name10">Andy Smith</span>
-                          <div class="home-point11"></div>
+                        <div class="home-details09">
+                          <span class="home-name09">Andy Smith</span>
+                          <div class="home-point09"></div>
                           <span class="home-caption10">CEO, Opary</span>
                         </div>
                       </div>
@@ -596,15 +456,15 @@
                         time (30 Minutes)
                       </span>
                       <h3 class="home-title11">How to Lorem Ipsum.</h3>
-                      <div class="home-author11">
+                      <div class="home-author10">
                         <img
                           alt="image"
                           src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon25"
+                          class="home-icon20"
                         />
-                        <div class="home-details11">
-                          <span class="home-name11">Samantha Johnson</span>
-                          <div class="home-point12"></div>
+                        <div class="home-details10">
+                          <span class="home-name10">Samantha Johnson</span>
+                          <div class="home-point10"></div>
                           <span class="home-caption11">CEO, Opary</span>
                         </div>
                       </div>
@@ -623,15 +483,15 @@
                         time (30 Minutes)
                       </span>
                       <h3 class="home-title12">How to Lorem Ipsum.</h3>
-                      <div class="home-author12">
+                      <div class="home-author11">
                         <img
                           alt="image"
                           src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon26"
+                          class="home-icon21"
                         />
-                        <div class="home-details12">
-                          <span class="home-name12">Samantha Johnson</span>
-                          <div class="home-point13"></div>
+                        <div class="home-details11">
+                          <span class="home-name11">Samantha Johnson</span>
+                          <div class="home-point11"></div>
                           <span class="home-caption12">CEO, Opary</span>
                         </div>
                       </div>
@@ -650,15 +510,15 @@
                         local time (2 Hours)
                       </span>
                       <h3 class="home-title13">Post-event networking</h3>
-                      <div class="home-author13">
+                      <div class="home-author12">
                         <img
                           alt="image"
                           src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fHBvdHJhaXR8ZW58MHx8fHwxNjcxNDg1OTU2&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon27"
+                          class="home-icon22"
                         />
-                        <div class="home-details13">
-                          <span class="home-name13">Samantha Johnson</span>
-                          <div class="home-point14"></div>
+                        <div class="home-details12">
+                          <span class="home-name12">Samantha Johnson</span>
+                          <div class="home-point12"></div>
                           <span class="home-caption13">CEO, Opary</span>
                         </div>
                       </div>
@@ -708,10 +568,10 @@
           </div>
         </section>
         <section class="home-sponsors">
-          <div class="home-header04">
+          <div class="home-header01">
             <div class="home-section-numeral1">
               <div class="home-divide1"></div>
-              <p class="home-text45">03</p>
+              <p class="home-text41">03</p>
             </div>
             <div data-aos="fade-right" class="home-heading1">
               <h2 class="home-title14">Sponsors</h2>
@@ -724,36 +584,36 @@
           </div>
           <div class="home-brands">
             <div class="brand">
-              <img alt="image" src="public/brand-1.svg" class="home-image04" />
+              <img alt="image" src="public/brand-1.svg" class="home-image" />
             </div>
             <div class="brand home-brand1">
-              <img alt="image" src="public/brand-2.svg" class="home-image05" />
+              <img alt="image" src="public/brand-2.svg" class="home-image01" />
             </div>
             <div class="brand home-brand2">
-              <img alt="image" src="public/brand-3.svg" class="home-image06" />
+              <img alt="image" src="public/brand-3.svg" class="home-image02" />
             </div>
             <div class="home-brand3 brand">
-              <img alt="image" src="public/brand-4.svg" class="home-image07" />
+              <img alt="image" src="public/brand-4.svg" class="home-image03" />
             </div>
             <div class="home-brand4 brand">
-              <img alt="image" src="public/brand-5.svg" class="home-image08" />
+              <img alt="image" src="public/brand-5.svg" class="home-image04" />
             </div>
             <div class="home-brand5 brand">
-              <img alt="image" src="public/brand-6.svg" class="home-image09" />
+              <img alt="image" src="public/brand-6.svg" class="home-image05" />
             </div>
             <div class="home-brand6 brand">
-              <img alt="image" src="public/brand-7.svg" class="home-image10" />
+              <img alt="image" src="public/brand-7.svg" class="home-image06" />
             </div>
             <div class="home-brand7 brand">
-              <img alt="image" src="public/brand-8.svg" class="home-image11" />
+              <img alt="image" src="public/brand-8.svg" class="home-image07" />
             </div>
           </div>
         </section>
         <section class="home-why">
-          <div class="home-header05">
+          <div class="home-header02">
             <div class="home-section-numeral2">
               <div class="home-divide2"></div>
-              <p class="home-text46">04</p>
+              <p class="home-text42">04</p>
             </div>
             <div data-aos="fade-right" class="home-heading2">
               <h2 class="home-title15">Why OnConf</h2>
@@ -767,8 +627,8 @@
           <div class="home-brands1">
             <div class="home-row">
               <div class="home-item">
-                <img alt="image" src="public/why-1.svg" class="home-image12" />
-                <div class="home-details14">
+                <img alt="image" src="public/why-1.svg" class="home-image08" />
+                <div class="home-details13">
                   <h3 class="home-title16">Networking</h3>
                   <p class="home-description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -779,10 +639,10 @@
                 </div>
               </div>
               <div class="home-item1">
-                <img alt="image" src="public/why-2.svg" class="home-image13" />
-                <div class="home-details15">
+                <img alt="image" src="public/why-2.svg" class="home-image09" />
+                <div class="home-details14">
                   <h3 class="home-title17">Learning</h3>
-                  <p class="home-description01">
+                  <p class="home-description1">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -791,10 +651,10 @@
                 </div>
               </div>
               <div class="home-item2">
-                <img alt="image" src="public/why-3.svg" class="home-image14" />
-                <div class="home-details16">
+                <img alt="image" src="public/why-3.svg" class="home-image10" />
+                <div class="home-details15">
                   <h3 class="home-title18">Developing</h3>
-                  <p class="home-description02">
+                  <p class="home-description2">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -806,54 +666,54 @@
           </div>
         </section>
         <section class="home-black">
-          <img alt="image" src="public/black-vector.svg" class="home-image15" />
+          <img alt="image" src="public/black-vector.svg" class="home-image11" />
           <section class="home-quotes">
             <div class="home-row1">
               <img
                 alt="image"
                 src="public/quotes-1-1400w.png"
-                class="home-image16"
+                class="home-image12"
               />
               <div class="home-row2">
-                <div class="home-details17">
-                  <p class="home-quote01">
+                <div class="home-details16">
+                  <p class="home-quote">
                     “Lorem ipsum dolor sit amet consectetur “
                   </p>
-                  <span class="home-author14">The Guard</span>
+                  <span class="home-author13">The Guard</span>
                 </div>
                 <img
                   alt="image"
                   src="public/quotes-2-700w.png"
-                  class="home-image17"
+                  class="home-image13"
                 />
               </div>
             </div>
             <div class="home-row3">
-              <div class="home-details18">
-                <p class="home-quote02">
+              <div class="home-details17">
+                <p class="home-quote01">
                   “Neque porro quisquam est, qui dolorem ipsum quia dolor sit
                   amet“
                 </p>
-                <span class="home-author15">Wall Street News</span>
+                <span class="home-author14">Wall Street News</span>
               </div>
               <img
                 alt="image"
                 src="public/quotes-3-1400w.png"
-                class="home-image18"
+                class="home-image14"
               />
-              <div class="home-details19">
-                <p class="home-quote03">
+              <div class="home-details18">
+                <p class="home-quote02">
                   “Duis aute irure dolor in reprehenderit in voluptate velit “
                 </p>
-                <span class="home-author16">Inside Business</span>
+                <span class="home-author15">Inside Business</span>
               </div>
             </div>
           </section>
           <section class="home-testimonials">
-            <div class="home-header06">
+            <div class="home-header03">
               <div class="home-section-numeral3">
                 <div class="home-divide3"></div>
-                <p class="home-text47">05</p>
+                <p class="home-text43">05</p>
               </div>
               <div data-aos="fade-right" class="home-heading3">
                 <h2 class="home-title19">
@@ -863,86 +723,86 @@
               </div>
             </div>
             <div id="scrollbar" class="home-quotes1">
-              <div class="home-quote04">
+              <div class="home-quote03">
+                <div class="home-author16">
+                  <img
+                    alt="image"
+                    src="https://images.unsplash.com/photo-1603771550805-abcf98e420e7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIyfHxwb3RyYWl0fGVufDB8fHx8MTY3MTQ4NTk1Ng&amp;ixlib=rb-4.0.3&amp;w=200"
+                    class="home-image15"
+                  />
+                  <div class="home-details19">
+                    <span class="home-name13">Samantha Johnson</span>
+                    <span class="home-handle">@thisissammy</span>
+                  </div>
+                </div>
+                <p class="home-quote04">
+                  “Duis aute irure dolor in reprehenderit in voluptate velit.”
+                </p>
+              </div>
+              <div class="home-quote05">
                 <div class="home-author17">
                   <img
                     alt="image"
                     src="https://images.unsplash.com/photo-1603771550805-abcf98e420e7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIyfHxwb3RyYWl0fGVufDB8fHx8MTY3MTQ4NTk1Ng&amp;ixlib=rb-4.0.3&amp;w=200"
-                    class="home-image19"
+                    class="home-image16"
                   />
                   <div class="home-details20">
                     <span class="home-name14">Samantha Johnson</span>
-                    <span class="home-handle">@thisissammy</span>
-                  </div>
-                </div>
-                <p class="home-quote05">
-                  “Duis aute irure dolor in reprehenderit in voluptate velit.”
-                </p>
-              </div>
-              <div class="home-quote06">
-                <div class="home-author18">
-                  <img
-                    alt="image"
-                    src="https://images.unsplash.com/photo-1603771550805-abcf98e420e7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIyfHxwb3RyYWl0fGVufDB8fHx8MTY3MTQ4NTk1Ng&amp;ixlib=rb-4.0.3&amp;w=200"
-                    class="home-image20"
-                  />
-                  <div class="home-details21">
-                    <span class="home-name15">Samantha Johnson</span>
                     <span class="home-handle1">@thisissammy</span>
                   </div>
                 </div>
-                <p class="home-quote07">
+                <p class="home-quote06">
                   “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   ”
                 </p>
               </div>
-              <div class="home-quote08">
-                <div class="home-author19">
+              <div class="home-quote07">
+                <div class="home-author18">
                   <img
                     alt="image"
                     src="https://images.unsplash.com/photo-1603771550805-abcf98e420e7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIyfHxwb3RyYWl0fGVufDB8fHx8MTY3MTQ4NTk1Ng&amp;ixlib=rb-4.0.3&amp;w=200"
-                    class="home-image21"
+                    class="home-image17"
                   />
-                  <div class="home-details22">
-                    <span class="home-name16">Samantha Johnson</span>
+                  <div class="home-details21">
+                    <span class="home-name15">Samantha Johnson</span>
                     <span class="home-handle2">@thisissammy</span>
                   </div>
                 </div>
-                <p class="home-quote09">
+                <p class="home-quote08">
                   “Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea.”
                 </p>
               </div>
-              <div class="home-quote10">
+              <div class="home-quote09">
+                <div class="home-author19">
+                  <img
+                    alt="image"
+                    src="https://images.unsplash.com/photo-1603771550805-abcf98e420e7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIyfHxwb3RyYWl0fGVufDB8fHx8MTY3MTQ4NTk1Ng&amp;ixlib=rb-4.0.3&amp;w=200"
+                    class="home-image18"
+                  />
+                  <div class="home-details22">
+                    <span class="home-name16">Samantha Johnson</span>
+                    <span class="home-handle3">@thisissammy</span>
+                  </div>
+                </div>
+                <p class="home-quote10">
+                  “Duis aute irure dolor in reprehenderit in voluptate velit.”
+                </p>
+              </div>
+              <div class="home-quote11">
                 <div class="home-author20">
                   <img
                     alt="image"
                     src="https://images.unsplash.com/photo-1603771550805-abcf98e420e7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIyfHxwb3RyYWl0fGVufDB8fHx8MTY3MTQ4NTk1Ng&amp;ixlib=rb-4.0.3&amp;w=200"
-                    class="home-image22"
+                    class="home-image19"
                   />
                   <div class="home-details23">
                     <span class="home-name17">Samantha Johnson</span>
-                    <span class="home-handle3">@thisissammy</span>
-                  </div>
-                </div>
-                <p class="home-quote11">
-                  “Duis aute irure dolor in reprehenderit in voluptate velit.”
-                </p>
-              </div>
-              <div class="home-quote12">
-                <div class="home-author21">
-                  <img
-                    alt="image"
-                    src="https://images.unsplash.com/photo-1603771550805-abcf98e420e7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIyfHxwb3RyYWl0fGVufDB8fHx8MTY3MTQ4NTk1Ng&amp;ixlib=rb-4.0.3&amp;w=200"
-                    class="home-image23"
-                  />
-                  <div class="home-details24">
-                    <span class="home-name18">Samantha Johnson</span>
                     <span class="home-handle4">@thisissammy</span>
                   </div>
                 </div>
-                <p class="home-quote13">
+                <p class="home-quote12">
                   “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   ”
@@ -960,10 +820,10 @@
             </button>
           </section>
           <section class="home-more">
-            <div class="home-header07">
+            <div class="home-header04">
               <div class="home-section-numeral4">
                 <div class="home-divide4"></div>
-                <p class="home-text51">06</p>
+                <p class="home-text47">06</p>
               </div>
               <div data-aos="fade-right" class="home-heading4">
                 <h2 class="home-title21">
@@ -974,7 +834,7 @@
             </div>
             <div class="home-accordions">
               <div class="home-accordion">
-                <div class="home-header08">
+                <div class="home-header05">
                   <div class="home-divide5"></div>
                   <h3 class="home-title22">Event information</h3>
                 </div>
@@ -983,13 +843,13 @@
                     data-role="accordion-container"
                     class="home-element13 accordion"
                   >
-                    <div class="home-content05">
-                      <span class="home-header09">
+                    <div class="home-content1">
+                      <span class="home-header06">
                         Esse cillum dolore eu fugiat nulla pariatur.
                       </span>
                       <span
                         data-role="accordion-content"
-                        class="home-description03"
+                        class="home-description3"
                       >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -1002,7 +862,7 @@
                       <svg
                         viewBox="0 0 1024 1024"
                         data-role="accordion-icon-closed"
-                        class="home-icon28"
+                        class="home-icon23"
                       >
                         <path
                           d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
@@ -1010,7 +870,7 @@
                       ><svg
                         viewBox="0 0 1024 1024"
                         data-role="accordion-icon-open"
-                        class="home-icon30"
+                        class="home-icon25"
                       >
                         <path
                           d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
@@ -1022,13 +882,13 @@
                     data-role="accordion-container"
                     class="home-element14 accordion"
                   >
-                    <div class="home-content06">
-                      <span class="home-header10">
+                    <div class="home-content2">
+                      <span class="home-header07">
                         Esse cillum dolore eu fugiat nulla pariatur.
                       </span>
                       <span
                         data-role="accordion-content"
-                        class="home-description04"
+                        class="home-description4"
                       >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -1041,7 +901,7 @@
                       <svg
                         viewBox="0 0 1024 1024"
                         data-role="accordion-icon-closed"
-                        class="home-icon32"
+                        class="home-icon27"
                       >
                         <path
                           d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
@@ -1049,7 +909,7 @@
                       ><svg
                         viewBox="0 0 1024 1024"
                         data-role="accordion-icon-open"
-                        class="home-icon34"
+                        class="home-icon29"
                       >
                         <path
                           d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
@@ -1061,13 +921,13 @@
                     data-role="accordion-container"
                     class="home-element15 accordion"
                   >
-                    <div class="home-content07">
-                      <span class="home-header11">
+                    <div class="home-content3">
+                      <span class="home-header08">
                         Esse cillum dolore eu fugiat nulla pariatur.
                       </span>
                       <span
                         data-role="accordion-content"
-                        class="home-description05"
+                        class="home-description5"
                       >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -1080,7 +940,7 @@
                       <svg
                         viewBox="0 0 1024 1024"
                         data-role="accordion-icon-closed"
-                        class="home-icon36"
+                        class="home-icon31"
                       >
                         <path
                           d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
@@ -1088,7 +948,7 @@
                       ><svg
                         viewBox="0 0 1024 1024"
                         data-role="accordion-icon-open"
-                        class="home-icon38"
+                        class="home-icon33"
                       >
                         <path
                           d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
@@ -1099,7 +959,7 @@
                 </div>
               </div>
               <div class="home-accordion1">
-                <div class="home-header12">
+                <div class="home-header09">
                   <div class="home-divide6"></div>
                   <h3 class="home-title23">Event information</h3>
                 </div>
@@ -1108,13 +968,13 @@
                     data-role="accordion-container"
                     class="home-element16 accordion"
                   >
-                    <div class="home-content08">
-                      <span class="home-header13">
+                    <div class="home-content4">
+                      <span class="home-header10">
                         Esse cillum dolore eu fugiat nulla pariatur.
                       </span>
                       <span
                         data-role="accordion-content"
-                        class="home-description06"
+                        class="home-description6"
                       >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -1127,7 +987,7 @@
                       <svg
                         viewBox="0 0 1024 1024"
                         data-role="accordion-icon-closed"
-                        class="home-icon40"
+                        class="home-icon35"
                       >
                         <path
                           d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
@@ -1135,7 +995,7 @@
                       ><svg
                         viewBox="0 0 1024 1024"
                         data-role="accordion-icon-open"
-                        class="home-icon42"
+                        class="home-icon37"
                       >
                         <path
                           d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
@@ -1147,13 +1007,13 @@
                     data-role="accordion-container"
                     class="home-element17 accordion"
                   >
-                    <div class="home-content09">
-                      <span class="home-header14">
+                    <div class="home-content5">
+                      <span class="home-header11">
                         Esse cillum dolore eu fugiat nulla pariatur.
                       </span>
                       <span
                         data-role="accordion-content"
-                        class="home-description07"
+                        class="home-description7"
                       >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -1166,7 +1026,7 @@
                       <svg
                         viewBox="0 0 1024 1024"
                         data-role="accordion-icon-closed"
-                        class="home-icon44"
+                        class="home-icon39"
                       >
                         <path
                           d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
@@ -1174,7 +1034,7 @@
                       ><svg
                         viewBox="0 0 1024 1024"
                         data-role="accordion-icon-open"
-                        class="home-icon46"
+                        class="home-icon41"
                       >
                         <path
                           d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
@@ -1186,13 +1046,13 @@
                     data-role="accordion-container"
                     class="home-element18 accordion"
                   >
-                    <div class="home-content10">
-                      <span class="home-header15">
+                    <div class="home-content6">
+                      <span class="home-header12">
                         Esse cillum dolore eu fugiat nulla pariatur.
                       </span>
                       <span
                         data-role="accordion-content"
-                        class="home-description08"
+                        class="home-description8"
                       >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -1205,7 +1065,7 @@
                       <svg
                         viewBox="0 0 1024 1024"
                         data-role="accordion-icon-closed"
-                        class="home-icon48"
+                        class="home-icon43"
                       >
                         <path
                           d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
@@ -1213,7 +1073,7 @@
                       ><svg
                         viewBox="0 0 1024 1024"
                         data-role="accordion-icon-open"
-                        class="home-icon50"
+                        class="home-icon45"
                       >
                         <path
                           d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
@@ -1280,47 +1140,24 @@
           </section>
         </section>
         <footer class="home-footer">
-          <div class="home-content11">
-            <div class="home-details25">
-              <h2 class="home-title24">OnConf</h2>
-              <p class="home-description09">
-                Product Calgary brings professionals together to connect, learn
-                from each other, find opportunities, and find talent. We started
-                as a meetup and have grown to be Alberta’s largest Product
-                Management community.
-              </p>
+          <div class="home-content7">
+            <div class="home-details24">
+              <h2 class="home-title24">ETSSound</h2>
             </div>
             <div class="home-socials">
-              <img alt="image" src="public/linkedin.svg" class="social" />
               <a
-                href="https://example.com"
+                href="https://github.com/ETSsound"
                 target="_blank"
                 rel="noreferrer noopener"
                 class="home-link2"
               >
                 <img
                   alt="image"
-                  src="public/instagram.svg"
-                  class="home-image25 social"
-                />
-              </a>
-              <a
-                href="https://example.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="home-link3"
-              >
-                <img
-                  alt="image"
-                  src="public/twitter.svg"
-                  class="home-image26 social"
+                  src="public/github-mark.svg"
+                  class="home-image20 social"
                 />
               </a>
             </div>
-            <span class="home-copyright">
-              Privacy — Terms &amp; Conditions — Code of Conduct © 2022 OnConf
-              All Rights Reserved
-            </span>
           </div>
         </footer>
         <div>

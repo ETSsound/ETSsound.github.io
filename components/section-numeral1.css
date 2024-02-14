@@ -1,0 +1,31 @@
+.section-numeral1-section-numeral {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.section-numeral1-divide {
+  width: 100px;
+  height: 1px;
+  display: flex;
+  margin-top: 4px;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--dl-color-gray-black);
+}
+.section-numeral1-root-class-name {
+  align-self: flex-start;
+}
+.section-numeral1-root-class-name1 {
+  align-self: flex-start;
+}
+@media(max-width: 479px) {
+  .section-numeral1-divide {
+    width: 20px;
+  }
+  .section-numeral1-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
